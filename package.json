@@ -3,7 +3,19 @@
   "name": "imager",
   "description": "Easy way to resize, crop and upload images to Rackspace cloudfiles and Amazon S3",
   "version": "0.1.10",
-  "keywords": ["upload", "image", "graphicsmagick", "imagemagick", "rackspace", "cloudfiles", "resize", "file", "crop", "amazon", "s3"],
+  "keywords": [
+    "upload",
+    "image",
+    "graphicsmagick",
+    "imagemagick",
+    "rackspace",
+    "cloudfiles",
+    "resize",
+    "file",
+    "crop",
+    "amazon",
+    "s3"
+  ],
   "homepage": "https://github.com/madhums/node-imager",
   "repository": {
     "type": "git",
@@ -19,7 +31,8 @@
     "knox": "0.7.x",
     "mime": "1.2.9",
     "async": "0.2.7",
-    "underscore": "1.4.4"
+    "underscore": "1.4.4",
+    "idgen": "~1.3.0"
   },
   "devDependencies": {
     "mocha": "1.9.0",
